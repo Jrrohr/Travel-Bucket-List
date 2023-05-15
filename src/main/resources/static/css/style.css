@@ -1,0 +1,291 @@
+@charset "ISO-8859-1";
+
+#addToBucketList {
+	display: none;
+	background-color: #FC585E;
+	padding: 30px;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#editToBucketList {
+	display: none;
+	background-color: #FC585E;
+	padding: 30px;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.errors {
+	color: red;
+}
+
+.homeImgTile {
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	background-color: black;
+	border-radius: 10px;
+}
+
+.homeImage {
+  opacity: 1;
+  display: block;
+  object-fit: cover;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 300px;
+  height: 200px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.homeImgTile:hover .homeImage {
+  opacity: 0.3;
+}
+
+.homeImgTile:hover .middle {
+  opacity: 1;
+}
+
+.homeTileText {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 25px auto;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+h2, nav {
+	margin-bottom: 25px;
+}
+
+.imgInContainer {
+	width: 100%;
+}
+
+.homeColored {
+	background-color: #DAF0F3;
+	text-align: right;
+	margin: 40px 0;
+	padding: 30px 0;
+}
+
+.parent {
+	position: relative;
+	height: 325px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.parent img {
+    vertical-align: middle;
+}
+
+.parent .text {
+    position: absolute;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+	width: 200px;
+	margin: 10px 50px;
+}
+
+.imgHeight {
+	height: 325px;
+	display: flex;
+	align-items: center;
+}
+
+button, .delete {
+	margin: 15px;
+	border: none;
+	border-radius: 10px;
+	background-color: #FC585E;
+	padding: 5px 18px;
+	color: white;
+	box-shadow: 2px 2px 2px darkgray;
+}
+
+.seeMore {
+	text-align: center;
+}
+
+h5 {
+	margin: 10px auto;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #FC585E;
+	color: white;
+}
+
+.navBar img {
+	height: 60px;
+}
+
+.login {
+	background-color: #DAF0F3;
+	color: black;
+	margin-left: 15px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.detailCard {
+	margin: 30px auto;
+	padding: 30px;
+	display: flex;
+	width: 80%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px darkgray;
+	border: 1px solid darkgray;
+	background-color: white;
+}
+
+.detailCard img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.marginLeft {
+	margin-left: 20px;
+}
+
+.tableIcon {
+	width: 50px;
+	height: 35px;
+	object-fit: cover;
+}
+
+.dashTable {
+	width: 90%;
+	margin: 25px auto;
+	border: 1px solid darkgray;
+}
+
+.formInputs {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.formStyle {
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	box-shadow: 10px 10px 10px darkgray;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+	margin: 50px auto;
+	background-color: white;
+}
+
+.flexNoMargin {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.blueBackground {
+	background-color: #DAF0F3;
+}
+
+a:hover, .add:hover {
+	color: #1EBAB9;
+	cursor: pointer;
+}
+
+h1, .homeContent {
+	margin: 20px auto;
+	width: 90%;
+	padding: 20px;
+}
+
+.width30 {
+	width: 30%;
+}
+
+.spBetween {
+	justify-content: space-between;
+}
+
+.noWrap {
+	flex-wrap: none;
+}
+
+.width65 {
+	width: 65%;
+}
+
+.noMargin {
+	margin-bottom: 0;
+}
+
+.noPadding {
+	padding: 0;
+}
+
+.notesBox {
+	border: 1px solid darkgray;
+	padding: 10px;
+	margin-bottom: 20px;
+	height: 150px;
+	overflow: auto;
+}
+
+.deleteForm {
+	display: inline;
+}
+
+.rightAlign {
+	text-align: right;
+	cursor: pointer;
+}
+
+.pointer {
+	cursor: pointer;
+}
